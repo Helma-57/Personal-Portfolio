@@ -565,8 +565,8 @@ nav {
 .git .progress-per {
   width: 85%;
 }
-.flutter .progress-per {
-  width: 65%;
+.configuration .progress-per {
+  width: 75%;
 }
 .problem-solving .progress-per {
   width: 90%;
@@ -1121,7 +1121,7 @@ footer p {
 }
 
 #chatbot-header {
-  background-color:  rgb(202, 127, 191);
+   background-color:  rgb(202, 127, 191);
   color: #fff(40, 169, 201);          
   padding: 10px;
   text-align: center;
