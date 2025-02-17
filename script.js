@@ -137,7 +137,7 @@ function toggleChatbot() {
           "CV" : "You can download the CV under the Resume",
           "bye": "Goodbye! Have a great day!",
           "thank you": "You're welcome! Let me know if you need anything else.",
-          "skills": "Some of the the soft skills that Cavin  poses are good communication and technical skills:CSS navigate to the skills page for more information.",
+          "skills": "Some of the the soft skills that Helma poses are good communication and technical skills:CSS navigate to the skills page for more information.",
           "thanks": "You're welcome! Let me know if you need anything else.",
           "name": "My name is Taurus, Helma's assistant. I'm here to help!",
           "tell me more about the profile": "Motivated IT professional with a Diploma in Information Communication Technology, specialized in Communication Networks. Skilled in designing, coding, with proficiency in languages Html, CSS and Python.",

@@ -1121,7 +1121,7 @@ footer p {
 }
 
 #chatbot-header {
-  background-color: rgb(109, 67, 0);
+  background-color:  rgb(202, 127, 191);
   color: #fff(40, 169, 201);          
   padding: 10px;
   text-align: center;
@@ -1156,7 +1156,7 @@ footer p {
 }
 
 #send-button {
-  background-color: rgb(109, 67, 0);
+  background-color:  rgb(202, 127, 191);
   color: white;
   border: none;
   border-radius: 5px;
@@ -1186,7 +1186,7 @@ footer p {
 
 
 .message.bot-message {
-  background-color: rgb(109, 67, 0);
+  background-color:  rgb(202, 127, 191);
   border: 2px solid #ccc;    
   align-self: flex-start;
 }
@@ -1196,7 +1196,7 @@ footer p {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: rgb(109, 67, 0);
+  background-color:  rgb(202, 127, 191);
   color: white;
   border-radius: 50%;
   padding: 15px;
