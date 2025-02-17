@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <title> Helma Makhubele </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+          <span>HM</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <a href="education.html">Education</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <a href="skills.html">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <a href="projects.html">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <a href="certificate.html">Certificates</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="certificate.html">Certificates</a>
+          <a href="contact.html">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+          <img src="assets/smile.jpg" alt="Helma Makhubele" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+           
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="900"
+          >
+         <span> </span>
+          </div>
+          <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+                I am a dedicated, self-assured, and eager learner who is constantly looking
+                for opportunities to pick up the new abilities.
+                Self-driven and flexible with appropriate configurations and 
+                understanding of using packet tracer for debugging, configurations and 
+                building network topologies.
+                Proficient in HTML and CSS programming 
+                with knowledge of Java, UI and UX design.
+                Passionate about Information 
+                Technology with interest in DevOps, Cybersecurity and Internet of 
+                Things. 
+          </p>
+
+          <!-- Social & Contact Links Styled Together -->
+          <div
+            class="social-links"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+          >
+            <a href="https://github.com/Helma-57" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/helma-makhubele-963337246/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="makhubelehelma@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a href="tel:+27661817219"><i class="fa-solid fa-phone"></i></a>
+          </div>
+
+          <!-- Buttons -->
+          <div
+            class="btn-container"
+            data-aos="zoom-out-left"
+            data-aos-duration="1000"
+            data-aos-delay="1400"
+          >
+            <a href="Helma Makhubele.pdf" download
+              ><button>Download CV</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">Helma Makhubele</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Helma-57" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/helma-makhubele-963337246/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="makhubelehelma@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="tel:+27661817219"><i class="fa-solid fa-phone"></i></a>
+        </div>
+
+        <div id="chatbot-toggle" onclick="toggleChatbot()">
+          <i class="bi bi-chat"></i>
+        </div>
+        <!-- Chatbot Window -->
+        <div id="chatbot">
+          <div id="chatbot-header">
+            Hey I'm Taurus, Chat with me!
+            <button id="chatbot-close-btn" onclick="closechat()">X</button>
+          </div>
+          <div id="chatbot-body"></div>
+          <div id="chatbot-footer">
+            <input type="text" id="user-input" placeholder="Type a message..." />
+            <button id="send-button" onclick="sendMessage()">Send</button>
+          </div>
+        </div>
+        <p>&copy; 2025 Helma Makhubele. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
