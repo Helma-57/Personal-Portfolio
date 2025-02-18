@@ -22,3 +22,20 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+
+## Usage
+Navigate through the different sections (Home, Education, Skills, Projects, Certificates, Contact) using the navigation menu.
+Use the chatbot for assistance or inquiries.
+Download the CV by clicking the "Download CV" button.
+Contributing
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
+
+
+## Contact
+For inquiries, you can reach me at:
+
+Email: makhubelehelma@gmail.com
+Phone: +27 66 181 7219
+
+## Portfolio Link:
+https://helma-57.github.io/Personal-Portfolio/education.html
