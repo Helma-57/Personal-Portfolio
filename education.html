@@ -151,6 +151,23 @@
             <i class="fa-solid fa-phone"></i>
           </a>
         </div>
+        <!-- Chatbot Window -->
+   <div id="chatbot-toggle" onclick="toggleChatbot()">
+    <img src="assets/robotics.png" alt="Chatbot Icon" style="width: 50px; height: 50px;" />
+    </div>
+    <div id="chatbot">
+   <div id="chatbot-header">
+     <img src="assets/robotics.png" alt="Chatbot Icon" id="chatbot-icon" style="width: 30px; height: 30px; margin-right: 10px;" />
+         Hey I'm Taurus, Chat with me!
+     <button id="chatbot-close-btn" onclick="closechat()">X</button>
+    </div>
+    <div id="chatbot-body"></div>
+   <div id="chatbot-footer">
+     <input type="text" id="user-input" placeholder="Type a message..." />
+     <button id="send-button" onclick="sendMessage()">Send</button>
+   </div>
+   </div>
+
         <p>&copy; 2025 Helma Makhubele. All rights reserved.</p>
       </div>
     </footer>
