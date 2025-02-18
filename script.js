@@ -147,7 +147,7 @@ function toggleChatbot() {
           "tell me more about the profile": "Motivated IT professional with a Diploma in Information Communication Technology, specialized in Communication Networks. Skilled in designing, coding, with proficiency in languages Html, CSS and Python.",
           "contact": "To get a hold of Helma email her at makhubelehelma@gmail.com",
           "education": "Helma studied at the Cape Peninsula University of Technology , South Africa.",
-          "experience": "Helma worked at Cape Peninsula University of Technology as a Network Engineer. For more information click on resume.",
+          "experience": "Helma worked at Cape Peninsula University of Technology as a Network Engineer. For more information click on the download CV button on the Home page.",
           "profile" : "The portfolio page is designed to showcase Helma Makhubele’s professional profile, skills, education, and work experience, while also offering potential collaborators or employers a means to contact him directly through the form or chatbot. It's built with modern web technologies (HTML, CSS, JavaScript) and is structured to highlight both technical and soft skills, providing an overview of his career and achievements in a clean, user-friendly layout."
         };
   
