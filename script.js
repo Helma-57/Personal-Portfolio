@@ -69,7 +69,11 @@ document
         console.error("Email sending error:", error);
       }
     );
+
+    // Fallback to mailto if EmailJS fails
+    window.location.href = `mailto:your-email@example.com?subject=Contact Form Submission&body=Name: ${formData.name}%0AEmail: ${formData.email}%0AMessage: ${formData.message}`;
   });
+
 
   // Initialize AOS (Animation On Scroll)
 AOS.init({ offset: 0 });

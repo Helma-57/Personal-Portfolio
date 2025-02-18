@@ -170,15 +170,11 @@
         </div>
 
         <!-- Contact Form -->
-        <section
-          class="contact-form"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
+        <section class="contact-form" data-aos="fade-left" data-aos-duration="1000">
           <h2>Contact Me</h2>
           <div class="border-line"></div>
-
-          <form id="contact-form" class="form-section">
+        
+          <form id="contact-form" class="form-section" action="mailto:your-email@example.com" method="post" enctype="text/plain">
             <div class="form-group">
               <label for="name">Name</label>
               <input type="text" id="name" name="name" required />
@@ -189,20 +185,15 @@
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                required
-              ></textarea>
+              <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-
+        
             <button type="submit" id="contact-submit" class="contact-button">
               <div class="submit-text">Submit</div>
             </button>
           </form>
         </section>
-      </div>
+        
     </main>
 
     <footer>
