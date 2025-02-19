@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone 
 
 ## Usage
 Navigate through the different sections (Home, Education, Skills, Projects, Certificates, Contact) using the navigation menu.
