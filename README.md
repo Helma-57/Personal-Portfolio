@@ -1,5 +1,8 @@
 # Helma Makhubele Portfolio
 
+## DEPLOYMENT LINK 
+https://helma-57.github.io/Personal-Portfolio/
+
 ## Description
 This is the personal portfolio of Helma Makhubele, showcasing skills, education, projects, and contact information. The website is designed to present Helma's professional background and abilities in a user-friendly layout.
 
@@ -21,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/Helma-57/Personal-Portfolio.git 
 
 ## Usage
 Navigate through the different sections (Home, Education, Skills, Projects, Certificates, Contact) using the navigation menu.
@@ -30,6 +33,10 @@ Download the CV by clicking the "Download CV" button.
 Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
+## Acknowledgements 
+- **W3School**
+- **FlatIcons**
+- **Youtube**
 
 ## Contact
 For inquiries, you can reach me at:
